@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "02aeb42863664113d6ee17b301ce835dafee1a85"
+                "reference": "11c5bdf90a7aabd10a2cd82cf8915d8d7f626a07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/02aeb42863664113d6ee17b301ce835dafee1a85",
-                "reference": "02aeb42863664113d6ee17b301ce835dafee1a85",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/11c5bdf90a7aabd10a2cd82cf8915d8d7f626a07",
+                "reference": "11c5bdf90a7aabd10a2cd82cf8915d8d7f626a07",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2013-07-22 02:37:57"
+            "time": "2013-07-22 07:20:41"
         },
         {
             "name": "microphork/package-auth",
@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork-package-auth.git",
-                "reference": "0da5f9f746bf9f9e22d8edb73aae743123942dc6"
+                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/0da5f9f746bf9f9e22d8edb73aae743123942dc6",
-                "reference": "0da5f9f746bf9f9e22d8edb73aae743123942dc6",
+                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/32e40641ad37cf4faa21104afee9a83aedaa27d8",
+                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8",
                 "shasum": ""
             },
             "require": {
@@ -69,7 +69,7 @@
             "type": "microphork-package",
             "notification-url": "https://packagist.org/downloads/",
             "description": "An authentication package for the microphork framework",
-            "time": "2013-07-22 03:21:35"
+            "time": "2013-07-22 07:27:12"
         },
         {
             "name": "microphork/package-installer",
@@ -77,12 +77,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork-installer.git",
-                "reference": "db0f3bb9a5a6e4bd1946923d84929299cc3d06fa"
+                "reference": "6f4a216eb2d1cecea2c099d9f6854375ee9f8a53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork-installer/zipball/db0f3bb9a5a6e4bd1946923d84929299cc3d06fa",
-                "reference": "db0f3bb9a5a6e4bd1946923d84929299cc3d06fa",
+                "url": "https://api.github.com/repos/phork/microphork-installer/zipball/6f4a216eb2d1cecea2c099d9f6854375ee9f8a53",
+                "reference": "6f4a216eb2d1cecea2c099d9f6854375ee9f8a53",
                 "shasum": ""
             },
             "type": "composer-installer",
@@ -101,7 +101,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2013-07-22 03:23:21"
+            "time": "2013-07-22 07:24:16"
         }
     ],
     "packages-dev": [
