@@ -15,7 +15,7 @@ This requires [composer](http://getcomposer.org/) in order to run. If you prefer
 The simplest way to install microphork using composer is via the [`composer create-project`](http://getcomposer.org/doc/03-cli.md#create-project) command:
 `composer create-project microphork/application -s dev myapp` where myapp is the name of the folder everything will be installed in.
 
-Next point your browser to the htdocs/index.php file. It's recommended that your set your server's document root to the htdocs directory. If any of the path constants require overriding you can create an `htdocs/env.php` file. This will be included automatically before the rest of the application runs.
+Next point your browser to the `htdocs/index.php` file. It's recommended that your set your server's document root to the htdocs directory. If any of the path constants require overriding you can create an `htdocs/env.php` file. This will be included automatically before the rest of the application runs.
 
 
 ##Example env.php
