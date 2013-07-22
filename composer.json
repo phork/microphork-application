@@ -1,0 +1,13 @@
+{
+	"name": "microphork/application",
+	"description": "A microphork application",
+	"keywords": ["microphork", "phork", "framework"],
+	"require": {
+		"microphork/framework": "*",
+		"microphork/package-auth": "*"
+	},
+	"scripts": {
+        "post-install-cmd": "php composer/post-install.php"
+    },
+	"minimum-stability": "dev"
+}
