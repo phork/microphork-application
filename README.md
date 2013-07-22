@@ -6,13 +6,13 @@
 
 ##Introduction
 
-This an installer used to start a new microphork application. It will check out the microphork framework and create a fresh copy of the `app` directory which should be used to build the application.
+This is an installer used to start a new microphork application. It will check out the microphork framework and create a fresh copy of the `app` directory which should be used to build the application.
 
 
 ##Usage
 
-This requires [composer](http://getcomposer.org/) in order to run. If you don't have composer you can checkout the [microphork](https://github.com/phork/microphork) repository directly. To begin the installation type `composer install`. 
-If any of the settings require overriding create an `htdocs/env.php` file. This will be included automatically before the rest of the application runs.
+This requires [composer](http://getcomposer.org/) in order to run. If you don't have composer you can checkout the [microphork](https://github.com/phork/microphork) repository directly. To begin the installation use the [`composer install`](http://getcomposer.org/doc/00-intro.md#using-composer) command. 
+If any of the settings require overriding you can create an `htdocs/env.php` file. This will be included automatically before the rest of the application runs.
 
 
 ##Example env.php
