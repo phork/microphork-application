@@ -1,0 +1,132 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8d37accce8f6e7fe53dd9db19dfa61d7",
+    "packages": [
+        {
+            "name": "microphork/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phork/microphork.git",
+                "reference": "75d2f8cc6eadfe9702c251fe59a876d53f7f7029"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/75d2f8cc6eadfe9702c251fe59a876d53f7f7029",
+                "reference": "75d2f8cc6eadfe9702c251fe59a876d53f7f7029",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "php/core/classes",
+                    "php/app/classes"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Elenor Collings",
+                    "email": "elenor@phork.org",
+                    "homepage": "http://elenor.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The microphork framework",
+            "homepage": "http://phork.org",
+            "keywords": [
+                "framework",
+                "microphork",
+                "phork"
+            ],
+            "time": "2013-08-15 04:12:28"
+        },
+        {
+            "name": "microphork/package-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phork/microphork-package-auth.git",
+                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/32e40641ad37cf4faa21104afee9a83aedaa27d8",
+                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8",
+                "shasum": ""
+            },
+            "require": {
+                "microphork/package-installer": "*"
+            },
+            "type": "microphork-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "An authentication package for the microphork framework",
+            "time": "2013-07-22 07:27:12"
+        },
+        {
+            "name": "microphork/package-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phork/microphork-installer.git",
+                "reference": "92eedf845ed32d717a188a76adcd98765f7bd1e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phork/microphork-installer/zipball/92eedf845ed32d717a188a76adcd98765f7bd1e6",
+                "reference": "92eedf845ed32d717a188a76adcd98765f7bd1e6",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Phork\\Composer\\InstallerPlugin",
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Phork\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2014-01-24 17:39:16"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
