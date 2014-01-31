@@ -10,5 +10,4 @@
     (!defined('LOG_PATH')) && define('LOG_PATH', realpath('../logs').DIRECTORY_SEPARATOR);
     
     //require the files to run the application from the vendor package
-    require VENDOR_PATH.'framework/htdocs/env.php';
     require VENDOR_PATH.'framework/htdocs/index.php';
