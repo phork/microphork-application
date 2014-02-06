@@ -11,7 +11,7 @@
                     throw new Exception(sprintf('Unable to copy %s to %s', $source, $target));
                 }
             } else {
-                if (isdir($target) || mkdir($target)) {
+                if (is_dir($target) || mkdir($target)) {
                     foreach (scandir($source) as $item) {
                         if ($item != '.' && $item != '..') {
                             copyall($source.DIRECTORY_SEPARATOR.$item, $target.DIRECTORY_SEPARATOR.$item);
