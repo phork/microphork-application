@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8d37accce8f6e7fe53dd9db19dfa61d7",
+    "hash": "c20cf2f73d25d8537bc9f3a3a28d95d7",
     "packages": [
         {
             "name": "microphork/framework",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "75d2f8cc6eadfe9702c251fe59a876d53f7f7029"
+                "reference": "799974dcf926d9bf8c7cad315dfded50cc550be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/75d2f8cc6eadfe9702c251fe59a876d53f7f7029",
-                "reference": "75d2f8cc6eadfe9702c251fe59a876d53f7f7029",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/799974dcf926d9bf8c7cad315dfded50cc550be1",
+                "reference": "799974dcf926d9bf8c7cad315dfded50cc550be1",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2013-08-15 04:12:28"
+            "time": "2014-02-06 01:27:55"
         },
         {
             "name": "microphork/package-auth",
@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork-package-auth.git",
-                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8"
+                "reference": "f1dae89b6473627f803edf6c79840a7a42b4328f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/32e40641ad37cf4faa21104afee9a83aedaa27d8",
-                "reference": "32e40641ad37cf4faa21104afee9a83aedaa27d8",
+                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/f1dae89b6473627f803edf6c79840a7a42b4328f",
+                "reference": "f1dae89b6473627f803edf6c79840a7a42b4328f",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
             "type": "microphork-package",
             "notification-url": "https://packagist.org/downloads/",
             "description": "An authentication package for the microphork framework",
-            "time": "2013-07-22 07:27:12"
+            "time": "2014-01-31 22:56:17"
         },
         {
             "name": "microphork/package-installer",
