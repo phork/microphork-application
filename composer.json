@@ -6,6 +6,9 @@
         "microphork/framework": "*",
         "microphork/package-auth": "*"
     },
+    "autoload": {
+        "classmap": ["app/classes"]
+    },
     "scripts": {
         "post-install-cmd": "php composer/post-install.php"
     },
