@@ -37,3 +37,9 @@
         $source.'htdocs'.DIRECTORY_SEPARATOR.'env.php',
         $root.'htdocs'.DIRECTORY_SEPARATOR.'env.php'
     );
+    
+    //copy the vender fatal file to the top level htdocs directory
+    copyall(
+        $source.'htdocs'.DIRECTORY_SEPARATOR.'fatal.php',
+        $root.'htdocs'.DIRECTORY_SEPARATOR.'fatal.php'
+    );
