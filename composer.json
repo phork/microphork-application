@@ -7,7 +7,9 @@
         "microphork/package-auth": "*"
     },
     "autoload": {
-        "classmap": ["app"]
+        "psr-4": {
+	        "Phork\\App\\": "app/classes"
+        }
     },
     "scripts": {
         "post-create-project-cmd": "php composer/post-create-project.php"
