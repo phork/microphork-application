@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "9ef26e1d3ab52a11fecbf6743f05fbc07fc962f9"
+                "reference": "8d48924eb7d498afa5ed1d0132eb091c062367e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/9ef26e1d3ab52a11fecbf6743f05fbc07fc962f9",
-                "reference": "9ef26e1d3ab52a11fecbf6743f05fbc07fc962f9",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/8d48924eb7d498afa5ed1d0132eb091c062367e6",
+                "reference": "8d48924eb7d498afa5ed1d0132eb091c062367e6",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
             "autoload": {
                 "psr-4": {
                     "Phork\\Core\\": "php/core/classes",
-                    "Phork\\App\\": "php/core/app"
+                    "Phork\\App\\": "php/app/classes"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -53,7 +53,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2014-02-09 23:15:56"
+            "time": "2014-02-09 23:22:00"
         },
         {
             "name": "microphork/package-auth",
