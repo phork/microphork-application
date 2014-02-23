@@ -1,4 +1,7 @@
 <?php
+    //require composer's autoloader
+    require __DIR__.'/../vendor/autoload.php';
+    
     //everything below can be overridden by an environmental file (this can also be auto-prepended by the server)
     (file_exists('env.php') && include_once 'env.php');
     
