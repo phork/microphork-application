@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-	        "Phork\\App\\": "app/classes"
+            "Phork\\App\\": "app/classes"
         }
     },
     "scripts": {
