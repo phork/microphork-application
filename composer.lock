@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "8029dbb5b217dc0e4a3655f7e3f68f005c6eb869"
+                "reference": "1027f539de6c24a128013a2f2ca74f8271839300"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/8029dbb5b217dc0e4a3655f7e3f68f005c6eb869",
-                "reference": "8029dbb5b217dc0e4a3655f7e3f68f005c6eb869",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/1027f539de6c24a128013a2f2ca74f8271839300",
+                "reference": "1027f539de6c24a128013a2f2ca74f8271839300",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2014-02-23 17:17:50"
+            "time": "2014-02-24 17:28:14"
         },
         {
             "name": "microphork/package-auth",
