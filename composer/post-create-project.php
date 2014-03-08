@@ -32,13 +32,13 @@
         $root.'app'
     );
     
-    //copy the vender env file to the top level htdocs directory
+    //copy the vendor env file to the top level htdocs directory
     copyall(
         $source.'htdocs'.DIRECTORY_SEPARATOR.'env.php',
         $root.'htdocs'.DIRECTORY_SEPARATOR.'env.php'
     );
     
-    //copy the vender fatal file to the top level htdocs directory
+    //copy the vendor fatal file to the top level htdocs directory
     copyall(
         $source.'htdocs'.DIRECTORY_SEPARATOR.'fatal.php',
         $root.'htdocs'.DIRECTORY_SEPARATOR.'fatal.php'
