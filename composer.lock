@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "8a714927e4f9a4094ed20bf5bcbad27ecdd67869"
+                "reference": "bdc58817d43dc923065f5785f16ca29137d02576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/8a714927e4f9a4094ed20bf5bcbad27ecdd67869",
-                "reference": "8a714927e4f9a4094ed20bf5bcbad27ecdd67869",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/bdc58817d43dc923065f5785f16ca29137d02576",
+                "reference": "bdc58817d43dc923065f5785f16ca29137d02576",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2014-03-08 19:22:56"
+            "time": "2014-03-10 16:14:27"
         },
         {
             "name": "microphork/package-auth",
@@ -88,12 +88,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork-installer.git",
-                "reference": "a60779037eda7d4ae499d0ba56133ee908cfd8f4"
+                "reference": "6968f64cb24d900ca8329b9b342df684b92f9f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork-installer/zipball/a60779037eda7d4ae499d0ba56133ee908cfd8f4",
-                "reference": "a60779037eda7d4ae499d0ba56133ee908cfd8f4",
+                "url": "https://api.github.com/repos/phork/microphork-installer/zipball/6968f64cb24d900ca8329b9b342df684b92f9f53",
+                "reference": "6968f64cb24d900ca8329b9b342df684b92f9f53",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,8 @@
             "license": [
                 "MIT"
             ],
-            "time": "2014-02-22 17:35:21"
+            "description": "The package installer for the microphork framework.",
+            "time": "2014-03-10 16:12:16"
         }
     ],
     "packages-dev": [
