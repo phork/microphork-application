@@ -1,6 +1,6 @@
 {
     "name": "microphork/application",
-    "description": "A microphork application",
+    "description": "The installer used to start a new microphork application",
     "keywords": ["microphork", "phork", "framework"],
     "require": {
         "microphork/framework": "*",
