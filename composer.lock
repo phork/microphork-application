@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork.git",
-                "reference": "53d334fd92213d918ad2a2d81add126afca56f94"
+                "reference": "1e823735cd920d6a2408853c5fe7f59df9b7a096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork/zipball/53d334fd92213d918ad2a2d81add126afca56f94",
-                "reference": "53d334fd92213d918ad2a2d81add126afca56f94",
+                "url": "https://api.github.com/repos/phork/microphork/zipball/1e823735cd920d6a2408853c5fe7f59df9b7a096",
+                "reference": "1e823735cd920d6a2408853c5fe7f59df9b7a096",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "microphork",
                 "phork"
             ],
-            "time": "2014-03-17 19:24:31"
+            "time": "2014-03-21 07:14:43"
         },
         {
             "name": "microphork/package-auth",
@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phork/microphork-package-auth.git",
-                "reference": "4ea1a2d5e228159fea95b469e5e5ea3ef7336635"
+                "reference": "8f8ac90643b2b27a684f088b7b8e434edaa2c6ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/4ea1a2d5e228159fea95b469e5e5ea3ef7336635",
-                "reference": "4ea1a2d5e228159fea95b469e5e5ea3ef7336635",
+                "url": "https://api.github.com/repos/phork/microphork-package-auth/zipball/8f8ac90643b2b27a684f088b7b8e434edaa2c6ad",
+                "reference": "8f8ac90643b2b27a684f088b7b8e434edaa2c6ad",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "An authentication package for the microphork framework",
-            "time": "2014-03-11 01:21:49"
+            "time": "2014-03-20 06:45:27"
         },
         {
             "name": "microphork/package-installer",
