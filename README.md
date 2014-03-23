@@ -1,11 +1,11 @@
 #microphork-application
 
-[![Latest Stable Version](https://poser.pugx.org/microphork/application/v/stable.png)](https://packagist.org/packages/microphork/application) [![Latest Unstable Version](https://poser.pugx.org/microphork/application/v/unstable.png)](https://packagist.org/packages/microphork/application) [![Total Downloads](https://poser.pugx.org/microphork/application/downloads.png)](https://packagist.org/packages/microphork/application) [![License](https://poser.pugx.org/microphork/application/license.png)](https://packagist.org/packages/microphork/application)
+[![Latest Stable Version](https://poser.pugx.org/microphork/application/v/stable.png)](https://packagist.org/packages/microphork/application) [![Latest Unstable Version](https://poser.pugx.org/microphork/application/v/unstable.png)](https://packagist.org/packages/microphork/application) [![Total Downloads](https://poser.pugx.org/microphork/application/downloads.png)](https://packagist.org/packages/microphork/application)
 
 
 ##Introduction
 
-This is an installer used to start a new microphork application. It will check out the microphork framework and create a fresh copy of the `app` directory which should be used to build the application.
+This is an installer used to start a new microphork application. It will check out the [microphork framework](https://github.com/phork/microphork) and create a fresh copy of the `app` directory which should be used to build the application.
 
 
 ##Usage
