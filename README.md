@@ -1,20 +1,26 @@
 #microphork-application
 
-[![Latest Stable Version](https://poser.pugx.org/microphork/application/v/stable.png)](https://packagist.org/packages/microphork/application) [![Latest Unstable Version](https://poser.pugx.org/microphork/application/v/unstable.png)](https://packagist.org/packages/microphork/application) [![Total Downloads](https://poser.pugx.org/microphork/application/downloads.png)](https://packagist.org/packages/microphork/application)
+[![Latest Stable Version](https://poser.pugx.org/microphork/application/v/stable.png)](https://packagist.org/packages/microphork/application) 
+[![Latest Unstable Version](https://poser.pugx.org/microphork/application/v/unstable.png)](https://packagist.org/packages/microphork/application) 
+[![Total Downloads](https://poser.pugx.org/microphork/application/downloads.png)](https://packagist.org/packages/microphork/application)
 
 
 ##Introduction
 
-This is an installer used to start a new microphork application. It will check out the [microphork framework](https://github.com/phork/microphork) and create a fresh copy of the `app` directory which should be used to build the application.
+This is a [Composer](http://getcomposer.org/)-based installer for creating a microphork application. If you prefer not to use Composer you can clone the [microphork framework](https://github.com/phork/microphork) repository directly.
 
 
 ##Usage
 
-This requires [Composer](http://getcomposer.org/) in order to run. If you prefer not to use Composer you can checkout the [microphork](https://github.com/phork/microphork) repository directly. 
-The simplest way to install microphork using composer is via the [`composer create-project`](http://getcomposer.org/doc/03-cli.md#create-project) command:
-`composer create-project microphork/application -s dev myapp` where myapp is the name of the folder everything will be installed in.
+First make sure that Composer is [installed](https://getcomposer.org/doc/00-intro.md). Then use the [`composer create-project`](http://getcomposer.org/doc/03-cli.md#create-project) command in the terminal:
 
-Next point your browser to the `htdocs/index.php` file. It's recommended that your set your server's document root to the htdocs directory. 
+```
+composer create-project microphork/application -s dev my-microphork-app
+```
+
+This will download the microphork framework and its dependencies to a folder called `my-microphork-app` and it will create a fresh copy of the `app` directory which should be used for your application files. Make sure that the `logs` directory has write permissions.
+
+Next point your browser to the `htdocs/index.php` file. It's recommended that your set your server's document root to the htdocs directory and set up URLs to rewrite to index.php.
 
 If any of the path constants require overriding you can create an `htdocs/env.php` file. This will be included automatically before the rest of the application runs.
 An example env.php file has been provided below showing some of the overrides that can be used.

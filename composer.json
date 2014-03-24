@@ -3,7 +3,7 @@
     "description": "The installer used to start a new microphork application",
     "keywords": ["microphork", "phork", "framework"],
     "require": {
-        "microphork/framework": "*",
+        "microphork/framework": "1.0.*",
         "microphork/package-auth": "*"
     },
     "autoload": {
@@ -13,6 +13,11 @@
     },
     "scripts": {
         "post-create-project-cmd": "php composer/post-create-project.php"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     },
     "minimum-stability": "dev"
 }
