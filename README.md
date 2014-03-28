@@ -15,7 +15,7 @@ This is a [Composer](http://getcomposer.org/)-based installer for creating a mic
 First make sure that Composer is [installed](https://getcomposer.org/doc/00-intro.md). Then use the [`composer create-project`](http://getcomposer.org/doc/03-cli.md#create-project) command in the terminal:
 
 ```
-composer create-project microphork/application -s dev my-microphork-app
+composer create-project microphork/application my-microphork-app
 ```
 
 This will download the microphork framework and its dependencies to a folder called `my-microphork-app` and it will create a fresh copy of the `app` directory which should be used for your application files. Make sure that the `logs` directory has write permissions.

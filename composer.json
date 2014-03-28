@@ -4,7 +4,7 @@
     "keywords": ["microphork", "phork", "framework"],
     "require": {
         "microphork/framework": "1.0.*",
-        "microphork/package-auth": "*"
+        "microphork/package-auth": "*@dev"
     },
     "autoload": {
         "psr-4": {
@@ -19,5 +19,5 @@
             "dev-master": "1.0.x-dev"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
