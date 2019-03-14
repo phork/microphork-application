@@ -1,20 +1,20 @@
-#microphork-application
+# microphork-application
 
 [![Latest Stable Version](https://poser.pugx.org/microphork/application/v/stable.png)](https://packagist.org/packages/microphork/application) 
 [![Latest Unstable Version](https://poser.pugx.org/microphork/application/v/unstable.png)](https://packagist.org/packages/microphork/application) 
 [![Total Downloads](https://poser.pugx.org/microphork/application/downloads.png)](https://packagist.org/packages/microphork/application)
 
 
-##Introduction
+## Introduction
 
 This is a [Composer](http://getcomposer.org/)-based installer for creating a microphork application. If you prefer not to use Composer you can clone the [microphork framework](https://github.com/phork/microphork) repository directly.
 
 
-##Usage
+## Usage
 
 First make sure that Composer is [installed](https://getcomposer.org/doc/00-intro.md). Then use the [`composer create-project`](http://getcomposer.org/doc/03-cli.md#create-project) command in the terminal:
 
-```
+```bash
 composer create-project microphork/application my-microphork-app
 ```
 
@@ -26,8 +26,8 @@ If any of the path constants require overriding you can create an `htdocs/env.ph
 An example env.php file has been provided below showing some of the overrides that can be used.
 
 
-##Example env.php
-```
+## Example env.php
+```php
 <?php
     //turn on the setting to display all errors
     ini_set('display_errors', 1);
@@ -67,12 +67,12 @@ An example env.php file has been provided below showing some of the overrides th
     define('PHORK_START', microtime(true));
 ```
 
-##Credits
+## Credits
 
-Built by [Elenor](http://elenor.net) at [Phork Labs](http://phorklabs.com).
+Built by [Elenor](http://elenor.net) at [Phork Labs](http://phork.org).
 
 
-##License
+## License
 
 Licensed under The MIT License
 <http://www.opensource.org/licenses/mit-license.php>
